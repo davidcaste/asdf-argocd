@@ -1,8 +1,11 @@
 language: c
-script: asdf plugin-test argocd $TRAVIS_BUILD_DIR 'argocd version --client'
 before_script:
   - git clone https://github.com/asdf-vm/asdf.git asdf
   - . asdf/asdf.sh
+script:
+  - asdf plugin-add argocd ./
+  - asdf list-all argocd
+  - asdf plugin-test argocd ./ 'argocd version --client'
 os:
   - linux
   - osx
