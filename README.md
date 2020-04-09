@@ -1,6 +1,6 @@
 # asdf-argocd
 
-[![Build Status](https://travis-ci.org/davidcaste/asdf-argocd.svg?branch=master)](https://travis-ci.org/davidcaste/asdf-argocd)
+[![Build Status](https://github.com/davidcaste/asdf-argocd/workflows/master/badge.svg?branch=master)](https://github.com/davidcaste/asdf-argocd/actions)
 
 [argocd](https://argoproj.github.io/argo-cd) plugin for [asdf](https://github.com/asdf-vm/asdf) version manager
 
